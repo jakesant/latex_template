@@ -1,0 +1,1 @@
+A LaTeX template I use for university assignments.
