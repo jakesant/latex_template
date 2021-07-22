@@ -1,9 +1,9 @@
 \documentclass[conference]{IEEEtran}
 
 \usepackage{cite}
+\usepackage{graphicx}
 
-\setstretch{1.13}
-\graphicspath{ {./figures/} }
+\graphicspath{{./figures/}}
 
 \begin{document}
 
@@ -24,6 +24,20 @@
     Some, Keywords, Are, Here
 
   \end{IEEEkeywords}
+
+  \section{Introduction}
+  \input{sections/Introduction}
+
+  \section{Literature Review}
+    \input{sections/Literature}
+
+  \section{Evaluation}
+  \label{Evaluation}
+    \input{sections/Evaluation}
+
+  \section{Conclusion and Future Work}
+  \label{Conclusion}
+    \input{sections/Conclusion}
 
   \bibliographystyle{IEEEtran}
   \bibliography{References}
